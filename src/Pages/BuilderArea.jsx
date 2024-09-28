@@ -1,16 +1,16 @@
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import { Button } from '@chakra-ui/react';
 import UserDataCollect from '../Components/UserDataCollect/UserDataCollect';
-import './BuilderArea.css'
+import './BuilderArea.css';
 import Footer from '../Components/Footer/Footer';
 import ResumeContext from '../Context/ResumeContext';
 import PropagateLoader from "react-spinners/PropagateLoader";
 
 const BuilderArea = (props) => {
-    const { showComponent, setShowComponent, loading, handlePrint } = useContext(ResumeContext)
+    const { showComponent, setShowComponent, loading, handlePrint } = useContext(ResumeContext);
 
     const handleSelectNewTemplate = () => {
-        setShowComponent(!showComponent)
+        setShowComponent(!showComponent);
     }
 
     return (
@@ -29,7 +29,7 @@ const BuilderArea = (props) => {
             </div>
             <Footer />
         </>
-    )
+    );
 }
 
-export default BuilderArea
+export default BuilderArea;

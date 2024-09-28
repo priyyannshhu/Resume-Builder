@@ -19,7 +19,6 @@ export default function Introduction() {
         setCurrentTheme(e.target.id)
     }
 
-
     return (
         <>
             <Helmet>
@@ -27,9 +26,9 @@ export default function Introduction() {
                 <meta name="description" content="Build your professional resume in minutes using our easy-to-use online resume builder. Choose from a variety of templates and customize your resume to land your dream job. Get started now!" />
                 <meta name="keywords" content="resume builder, online resume builder, professional resume, resume templates, resume designs, resume generator, resume creator, resume maker, build resume, create resume, download resume" />
                 <meta name="robots" content="index,follow" />
-                <meta name="author" content="Ashutosh Singh" />
-                <meta property="og:image" content="https://avatars.githubusercontent.com/u/130897584?v=4" />
-                <meta property="og:url" content="https://resume-builder-pro.vercel.app/" />
+                <meta name="author" content="Srishti Pandey" />
+                <meta property="og:image" content="/" />
+                <meta property="og:url" content="/" />
                 <meta property="og:type" content="website" />
             </Helmet>
 
@@ -57,7 +56,7 @@ export default function Introduction() {
                                 </Heading>
 
                                 <Text color={'gray.500'} maxW={'3xl'}>
-                                    Resume builder tools that assemble well-formatted resume. Through a resume builder, you can create a professional-looking resume in a few easy steps. This resume builder offer different template options, so you can select the template that best fits your needs and style.
+                                    Resume builder tools that assemble well-formatted resume. Through a resume builder, you can create a professional-looking resume in a few easy steps. This resume builder offers different template options, so you can select the template that best fits your needs and style.
                                 </Text>
 
                                 <Flex _dark={{ color: 'gray.50' }} textAlign={'start'} flexDirection={'column'} w={'full'}>
@@ -70,7 +69,7 @@ export default function Introduction() {
                                     <Box className='Bullet_Points'>
                                         <Button>2</Button>
                                         <Text _dark={{ color: "gray.400" }} color={'gray.900'} fontSize={'xl'}>
-                                            Build you resume using our easy to use resume builder.
+                                            Build your resume using our easy-to-use resume builder.
                                         </Text>
                                     </Box>
                                     <Box className='Bullet_Points'>

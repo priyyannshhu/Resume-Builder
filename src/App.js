@@ -15,11 +15,11 @@ function App() {
           <title>Resume Builder - Create Professional Resumes Online</title>
           <meta name="description" content="Build and customize professional resumes online with Resume Builder. Choose from a variety of templates and create your perfect resume easily." />
           <meta name="keywords" content="resume builder, professional resumes, online resumes, resume templates" />
-          <meta name="author" content="Ashutosh Singh" />
+          <meta name="author" content="Srishti Pandey" />
           <meta property="og:title" content="Resume Builder - Create Professional Resumes Online" />
           <meta property="og:description" content="Build and customize professional resumes online with Resume Builder. Choose from a variety of templates and create your perfect resume easily." />
-          <meta property="og:image" content="https://avatars.githubusercontent.com/u/130897584?v=4" />
-          <meta property="og:url" content="https://resume-builder-pro.vercel.app/" />
+          <meta property="og:image" content="/Branding/Profile.webp" />
+          <meta property="og:url" content="/" />
           <meta property="og:type" content="website" />
         </Helmet>
         <Navbar />
