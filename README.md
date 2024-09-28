@@ -11,21 +11,7 @@
 <hr><img src="./Branding/Mockup.png" />
  <details>
     <summary>View Resume Builder Snapshot</summary>
-
-###### Home Page
-<img src="./Branding/Home Page Dark.png" />
-
-###### Select Template Page
-<img src="./Branding/Resume Template.png" />
-
-###### Resume Builder Page
-<img src="./Branding/Resume Crafting.png" />
-
-###### About Page
-<img src="./Branding/About Us.png" />
-
-###### Light Mode
-<img src="./Branding/Home Page Light.png" />
+   
 </details><hr>
 
 
