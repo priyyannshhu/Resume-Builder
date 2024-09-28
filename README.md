@@ -1,5 +1,12 @@
 <div align="center">  
-                                                                                           
+
+                                                                                           ` Team Details 👥 `
+
+**Members: BTech CSE 3rd Year**
+- Srishti Pandey - Roll no. 2205250100055
+- Pragati Pandey - Roll no. 2205250100037
+- Shaurya Giri - Roll no. 2205250100048
+
 
 <hr>
   <h1 align="center">📋 Introducing to Resume Builder 📋</h1>
