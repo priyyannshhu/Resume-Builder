@@ -1,31 +1,139 @@
-<div align="center">  
+# Resume Builder
 
-                                                                                           ` Team Details 👥 `
+A modern, user-friendly web application for creating professional resumes in minutes. Built with React and Chakra UI, this resume builder offers multiple templates and an intuitive interface to help users craft their perfect resume.
 
-**Members: BTech CSE 3rd Year**
-- Srishti Pandey - Roll no. 2205250100055
-- Pragati Pandey - Roll no. 2205250100037
-- Shaurya Giri - Roll no. 2205250100048
+## 🚀 Features
 
+- **Multiple Templates**: Choose from 4 professionally designed resume templates
+- **Real-time Preview**: See your resume update as you type
+- **Print/Download**: Generate PDF versions of your resume
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Dark Mode Support**: Built-in dark mode for comfortable viewing
+- **Easy Customization**: Intuitive form-based data collection
 
-<hr>
-  <h1 align="center">📋 Introducing to Resume Builder 📋</h1>
-  <img src="./Branding/logo.png" width="100px" />
-  <br><a href="/"><strong>Resume Builder</strong></a>
-  <h4 align="center">✦ Create your Resume in minutes! ✦</h4>
-  
-  ` Resume Builder is a Web App where users can easily create professional and personalized resumes. `
-<hr><img src="./Branding/Mockup.png" />
- <details>
-    <summary>View Resume Builder Snapshot</summary>
-   
-</details><hr>
+## 🛠️ Technologies Used
 
+- **React** - Frontend framework
+- **Chakra UI** - Component library for styling
+- **React Router** - Navigation and routing
+- **React Helmet** - SEO optimization
+- **React to Print** - PDF generation
+- **CSS3** - Custom styling
 
-<div align="center"><hr>
-  
-` Technologies Used 💻 Built With `
+## 📋 Prerequisites
 
-[React](https://reactjs.org/)  [Chakra UI](https://chakra-ui.com/)  [React Router](https://reactrouter.com/)  [React Icons](https://react-icons.github.io/react-icons/)  [React HTML to PDF](https://www.npmjs.com/package/react-html-to-pdf)  [Bootstrap](https://getbootstrap.com/)  <br><br> ![React](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=plastic&logo=npm&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=plastic&logo=react%20query&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white) <br><hr>
+Before running this project, make sure you have the following installed:
 
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
+## 🔧 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/priyyannshhu/Resume-Builder.git
+cd Resume-Builder
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Open your browser and navigate to:
+```
+http://localhost:3000
+```
+
+## 📁 Project Structure
+
+```
+resume-builder/
+├── src/
+│   ├── Assets/          # Images and logos
+│   ├── Components/      # Reusable components
+│   │   ├── Navbar/
+│   │   ├── Footer/
+│   │   ├── Intro/
+│   │   └── UserDataCollect/
+│   ├── Context/         # React Context for state management
+│   ├── Pages/           # Page components
+│   │   ├── Home/
+│   │   ├── About/
+│   │   └── BuilderArea/
+│   ├── Theme/           # Resume templates
+│   │   ├── Theme1/
+│   │   ├── Theme2/
+│   │   ├── Theme3/
+│   │   └── Theme4/
+│   ├── db/              # Template data
+│   ├── App.js
+│   └── index.js
+├── public/
+├── package.json
+└── README.md
+```
+
+## 🎯 How to Use
+
+1. **Select a Template**: Browse through available resume templates and choose one that suits your style
+2. **Fill in Your Details**: Enter your personal information, work experience, education, and skills
+3. **Preview Your Resume**: See real-time updates as you fill in your information
+4. **Download/Print**: Generate a PDF version of your resume or print it directly
+
+## 🎨 Available Templates
+
+The application includes 4 unique resume templates:
+- **Theme 1**: Classic professional layout
+- **Theme 2**: Modern minimalist design
+- **Theme 3**: Creative contemporary style
+- **Theme 4**: Bold executive format
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute to this project:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Developer
+
+**Priyanshu Vishwakarma**
+
+- Portfolio: [https://priyanshu-v.vercel.app/](https://priyanshu-v.vercel.app/)
+- GitHub: [@priyyannshhu](https://github.com/priyyannshhu)
+- LinkedIn: [Priyanshu Vishwakarma](https://www.linkedin.com/in/priyanshu-vishwakarmaa/)
+
+## 🙏 Acknowledgments
+
+- Thanks to Chakra UI for the amazing component library
+- Inspired by modern resume building platforms
+- Built with ❤️ for the developer community
+
+## 📧 Contact
+
+For any queries or suggestions, feel free to reach out through:
+- GitHub: [Create an issue](https://github.com/priyyannshhu/Resume-Builder/issues)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/priyanshu-vishwakarmaa/)
+- Portfolio: [Visit my website](https://priyanshu-v.vercel.app/)
+
+## 🐛 Bug Reports
+
+If you discover any bugs, please [create an issue on GitHub](https://github.com/priyyannshhu/Resume-Builder/issues) with detailed information about the problem.
+
+---
+
+**Note**: Remember to update the placeholder URLs and contact information with your actual details before publishing.
